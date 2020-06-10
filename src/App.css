@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+body, html {
+  height: 100vh;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('isaac-quesada-56_x6UCfgG4-unsplash.jpg');
+
+  /* Full height */
+  height: 100vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10vh;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('rowan-heuvel-ESDg_Afz2HU-unsplash.jpg');
+
+  /* Full height */
+  height: 60vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url('isaac-quesada-56_x6UCfgG4-unsplash.jpg');
+
+  /* Full height */
+  height: 100vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat repeat;
+  background-size: cover;
+  padding-top: 10vh;
+}
+
+.Info-page
+{
+  height: 40vh;  
+  background-color: lightgrey;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+}
+
+.Info-page > p {
+  color: #282c34;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+
+.Story{
+  height: 100vh;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Menu-link {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2vw;
+  text-decoration: none;
+}
