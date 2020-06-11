@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="260" viewBox="0 0 259 260">
   <defs>
     <clipPath id="clip-path">
@@ -11,4 +12,19 @@
     <text id="M" transform="translate(141 194)" fill="#2e2e2e" font-size="50" font-family="MicrosoftJhengHeiUIBold, Microsoft JhengHei UI"><tspan x="0" y="0">M</tspan></text>
     <text id="B" transform="translate(149 93)" fill="#2e2e2e" font-size="50" font-family="MicrosoftJhengHeiUIBold, Microsoft JhengHei UI"><tspan x="0" y="0">B</tspan></text>
   </g>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="260" viewBox="0 0 259 260">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="259" height="260" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="LogoBLM" clip-path="url(#clip-path)">
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="129.5" cy="130" rx="129.5" ry="130" fill="rgba(252,244,22,0.81)"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="74.5" cy="91" rx="74.5" ry="91" transform="translate(87 39)" fill="#fff"/>
+    <text id="L" transform="translate(152 144)" fill="#2e2e2e" font-size="50" font-family="MicrosoftJhengHeiUIBold, Microsoft JhengHei UI"><tspan x="0" y="0">L</tspan></text>
+    <text id="M" transform="translate(141 194)" fill="#2e2e2e" font-size="50" font-family="MicrosoftJhengHeiUIBold, Microsoft JhengHei UI"><tspan x="0" y="0">M</tspan></text>
+    <text id="B" transform="translate(149 93)" fill="#2e2e2e" font-size="50" font-family="MicrosoftJhengHeiUIBold, Microsoft JhengHei UI"><tspan x="0" y="0">B</tspan></text>
+  </g>
+>>>>>>> Stashed changes
 </svg>
