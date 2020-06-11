@@ -10,6 +10,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import { UsefulResources } from './UsefulResources';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,8 +20,8 @@ ReactDOM.render(
           <Route path="/about">
             <Storys/>
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/useful_resources">
+             <UsefulResources/>
           </Route>
           <Route path="/">
             <Home />

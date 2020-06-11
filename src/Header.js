@@ -15,7 +15,7 @@ export function Header() {
         <nav className="header">
         <p><Link className="Menu-link" to="/">Home</Link></p>
         <p><Link className="Menu-link"  to="/about">About</Link></p>
-        <p><Link className="Menu-link" to="/users">Users</Link></p>
+        <p><Link className="Menu-link" to="/useful_resources">Useful resources</Link></p>
         </nav>       
       </header>
     </div>
