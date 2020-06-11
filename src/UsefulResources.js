@@ -4,11 +4,17 @@ import './App.css';
 
 export function UsefulResources() {
   return (
+      <div>
+          <div class="flex-container">
+      <div>1</div>
+      <div>2</div>    
+    </div>
     <div class="flex-container">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>  
-  </div>
+      <div>1</div>
+      <div>2</div>    
+    </div>
+    </div>
+    
   );
 }
 
