@@ -7,7 +7,9 @@ function Home() {
   return (
     <div className="App"> 
       <body>
-      <div className="parallax"></div>
+      <div className="parallax">
+      <h1>[Insert powerful message]</h1>
+      </div>
           <div className="Info-page"> 
                <p>
                “Equal rights for others does not mean less rights for you. It’s not pie.”

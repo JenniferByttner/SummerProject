@@ -9,7 +9,7 @@ body, html {
 .parallax {
   /* The image used */
   background-image: url('isaac-quesada-56_x6UCfgG4-unsplash.jpg');
-
+  display: flex;
   /* Full height */
   height: 100vh; 
   /* Create the parallax scrolling effect */
@@ -17,13 +17,21 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  
+  flex-direction: column;
+}
+
+.parallax > h1 {
   padding-top: 10vh;
+  color: whitesmoke;
+  font-size: 4rem;
 }
 
 .parallax2 {
   /* The image used */
   background-image: url('rowan-heuvel-ESDg_Afz2HU-unsplash.jpg');
-
+  display: flex;
   /* Full height */
   height: 60vh; 
   /* Create the parallax scrolling effect */
@@ -31,6 +39,20 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parallax2 > h1 {
+     color: whitesmoke;
+     font-size: 4rem;
+}
+
+.parallax2 > p {
+      width: 60vw;
+      color: whitesmoke;
+      font-weight: 600;
 }
 
 .parallax3 {
@@ -45,6 +67,43 @@ body, html {
   background-repeat: no-repeat repeat;
   background-size: cover;
   padding-top: 10vh;
+}
+
+.line {
+  display: flex;
+  height: 20vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 100vw;
+}
+
+.line > p {
+  padding-right: 10px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.pulsate {
+ animation: pulsate 3s ease-out;
+  animation-iteration-count: infinite; 
+  opacity: 0.5;
+}
+
+@keyframes pulsate {
+  0% { 
+      opacity: 0.5;
+      color: lightpink;
+  }
+  50% { 
+      opacity: 1.0;
+  }
+  100% { 
+      opacity: 0.5;
+      color: lightpink;
+  }
 }
 
 .Info-page
