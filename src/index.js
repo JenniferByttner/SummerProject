@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header  from './Header';
 import Home from './Home';
-import Storys from './Storys'
+import Storys from './Storys';
 import * as serviceWorker from './serviceWorker';
 import {
   BrowserRouter as Router,
@@ -11,6 +11,7 @@ import {
   Route,
 } from "react-router-dom";
 import { UsefulResources } from './UsefulResources';
+import Quotes from './Quote';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,9 @@ ReactDOM.render(
     <Switch>
           <Route path="/about">
             <Storys/>
+          </Route>
+          <Route path="/quotes">
+            <Quotes/>
           </Route>
           <Route path="/useful_resources">
              <UsefulResources/>

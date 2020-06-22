@@ -175,7 +175,7 @@ body, html {
 }
 
 .header {
-  background: #282c34;
+  background: #241204;
   min-height: 20vh;
   display: flex;
   flex-direction: row;
@@ -222,4 +222,70 @@ body, html {
 {
   width: 100%;
   height: auto;
+}
+
+/* Parallax BML sida test */
+
+.parallaxToday {
+  /* The image used */
+  background-image: url('Today.jpeg');
+  display: flex;
+  /* Full height */
+  height: 80vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+  flex-direction: column;
+}
+
+.parallaxTomorow {
+  /* The image used */
+  background-image: url('Tomorrow.jpeg');
+  display: flex;
+  /* Full height */
+  height: 80vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+  flex-direction: column;
+}
+
+.parallaxEveryday {
+  /* The image used */
+  background-image: url('Everyday.jpeg');
+  display: flex;
+  /* Full height */
+  height: 80vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+  flex-direction: column;
+}
+
+.parallaxBMLPic {
+  /* The image used */
+  background-image: url('BMLPic.jpeg');
+  display: flex;
+  /* Full height */
+  height: 100vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  
+  flex-direction: column;
 }

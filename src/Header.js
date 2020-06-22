@@ -16,6 +16,7 @@ export function Header() {
         <p><Link className="Menu-link" to="/">Home</Link></p>
         <p><Link className="Menu-link"  to="/about">About</Link></p>
         <p><Link className="Menu-link" to="/useful_resources">Useful resources</Link></p>
+        <p><Link className="Menu-link" to="/quotes">Quotes</Link></p>
         </nav>       
       </header>
     </div>

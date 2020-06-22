@@ -7,6 +7,10 @@ function Home() {
   return (
     <div className="App"> 
       <body>
+      <div className="parallaxToday"></div>
+        <div className="parallaxTomorow"></div>
+        <div className="parallaxEveryday"></div>
+        <div className="parallaxBMLPic"></div>
       <div className="parallax">
       <h1>[Insert powerful message]</h1>
       </div>
@@ -30,21 +34,7 @@ function Home() {
         </a>
         </div>   
         <div class="parallax2"></div>
-        <div class="parallax">
-        <div className="Story"> 
-               <p>
-           Edit <code>src/Home.js</code> and save to reload.
-           </p>
-          <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-            >
-          Learn React
-        </a>
-        </div>   
-        </div>
+        
       </body>
     </div>
   );
