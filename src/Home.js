@@ -7,10 +7,6 @@ function Home() {
   return (
     <div className="App"> 
       <body>
-      <div className="parallaxToday"></div>
-        <div className="parallaxTomorow"></div>
-        <div className="parallaxEveryday"></div>
-        <div className="parallaxBMLPic"></div>
       <div className="parallax">
       <h1>[Insert powerful message]</h1>
       </div>
